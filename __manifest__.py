@@ -7,7 +7,7 @@
         subtitle on modules listing or apps.openerp.com""",
 
     'description': """
-        Long description of module's purpose
+        Application to manage football teams, players and statistics
     """,
 
     'author': "My Company",
