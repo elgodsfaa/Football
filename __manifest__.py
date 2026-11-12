@@ -7,7 +7,9 @@
         subtitle on modules listing or apps.openerp.com""",
 
     'description': """
-        Application to manage football teams, players and statatics
+
+        Application to manage football teams, players and statistics
+
     """,
 
     'author': "My Company",
