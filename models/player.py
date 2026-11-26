@@ -18,8 +18,3 @@ class Player(models.Model):
      # Many2many (N:M) relationship with Match
      match_ids = fields.Many2many('football.match', string="Matches")
 
-#
-     @api.depends('value')
-#     def _value_pc(self):
-#         for record in self:
-#             record.value2 = float(record.value) / 100
