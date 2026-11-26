@@ -9,6 +9,8 @@ class Team(models.Model):
 
     name = fields.Char(string='Team Name', required=True)
     city = fields.Char(string='City')
+    budget = fields.Integer(string='Budget')
+    
 
     # Relationships
     coach_id = fields.Many2one('res.users', string='Coach')
